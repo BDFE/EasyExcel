@@ -4,7 +4,7 @@ const fs = require('fs');
 
 //readdir为读取该文件夹下的文件
 
-fs.readdir('./input', function (err, files) {
+fs.readdir('../input', function (err, files) {
 
     files.forEach((file) => {
 
